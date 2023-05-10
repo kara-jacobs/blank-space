@@ -1,0 +1,48 @@
+
+=====================INPUT FOR NAME ENTRY BOX:
+
+NAME INPUT IS LESS THAN 3 CHARACTERS:
+Me
+Hi
+Al
+
+NAME INPUT IS MORE THAN 40 CHARACTERS:
+Dominic Maverick Washington Adley Fernhill (42 characters)
+Cassandra Evangeline Arabella Blankenship (41 characters)
+Sebastion Atticus Emmanuel Grayson Lakely (41 characters)
+
+NAME INPUT IS BETWEEN 3 TO 40 CHARACTERS (VALID):
+Mel (3 characters)
+Daniel Davenport (16 characters)
+Esmerelda Cordelia Persephone Montgomery (40 characters)
+
+NAME INPUT IS A NUMBER:
+22
+304
+6
+
+====================INPUT FOR ID NUMBER ENTRY BOX:
+
+NUMBER INPUT IS NOT AN INTEGER:
+Maxwell
+!!!
+17.3
+
+NUMBER INPUT IS AN INTEGER (VALID):
+707
+9675
+21
+
+
+
+=================Brief written explanation of the results of MY tests and what I had to fix:
+
+All the results of my tests worked as intended. For the “Enter your name” box, if I entered nothing and then pressed the confirm button, an error label alerted me to the mistake. Likewise, if I tried entering less than 3 characters, more than 40 characters, or a number, the appropriate alert labels were shown.
+
+For the “Enter your ID number” box, if I tried entering letters, symbols, or floats instead of integers, an error label appeared.
+
+In addition, all of the buttons and radiobuttons worked as intended.
+
+
+I had some difficulty getting the user input validation to work initially, when I was trying to use while loops, but after watching some tutorials on YouTube, I found some easy ways to make the code work using if-else statements and try-except statements.
+
