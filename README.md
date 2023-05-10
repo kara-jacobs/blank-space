@@ -2,8 +2,11 @@
 
 # Description
 Program: blankspace.py
+
 Title: Blank Space
+
 Author: Kara Jacobs
+
 Date last modified: 05/08/2023
 
 A text-based adventure game set in outer space. An amnesiac wakes
